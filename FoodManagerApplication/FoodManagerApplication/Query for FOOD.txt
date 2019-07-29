@@ -1,0 +1,47 @@
+		
+						Food Manager Application Queries
+
+UserInformation
+	Admin => Username = "admin"
+	User  => Username = "phoenix"
+
+select * from Menu
+select * from FoodEntry
+select * from Amount
+select * from PersonDetails
+select * from UserInformation
+
+
+create Table Menu (Days varchar(10), Breakfast varchar(20), Lunch varchar(20), Dinner varchar(20))
+Create Table FoodEntry (EntryDate date, Name varchar(25), Period varchar(20), Amount int)
+Create Table Amount (S_NO int IDENTITY(1,1) PRIMARY KEY,Item Varchar(50), Amount INT)
+Create Table PersonDetails (Name varchar(30),Email varchar(50))
+Create Table UserInformation (UserName varchar(20), Password varchar(30)) 
+
+
+insert into Menu (Days,Breakfast,Lunch,Dinner) values(<Days, varchar(10)> , <Breakfast, varchar(20)> , <Lunch, varchar(20)> , <Dinner, varchar(20)>)
+insert into FoodEntry (EntryDate,Name,Period,Amount) values(<EntryDate, date> , <Name, varchar(25)> , <Period, varchar(20)> , <Amount, int>)
+insert into Amount (Item,Amount) values(<Item, varchar(50)> , <Amount, int>)
+insert into PersonDetails (Name,Email) values(<Name, varchar(30)> , <Email, varchar(50)>)
+insert into UserInformation (UserName,Password) values (<UserName, varchar(30)> , <Password, varchar(20)>)
+
+
+update Menu  SET Days = <Days, varchar(10)> , Breakfast = <Breakfast, varchar(20)> , Lunch = <Lunch, varchar(20)> , Dinner = <Dinner, varchar(20)> WHERE <Search Conditions,,>
+update FoodEntry SET EntryDate = <EntryDate, date> , Name = <Name, varchar(25)> , Period = <Period, varchar(20)> , Amount = <Amount, int> WHERE <Search Conditions,,>
+update Amount SET Item = <Item, varchar(50)> , Amount = <Amount, int> WHERE <Search Conditions,,>
+update PersonDetails SET Name = <Name, varchar(30)> , Email = <Email, varchar(50)> WHERE <Search Conditions,,>
+update  UserInformation SET UserName = <UserName, varchar(30)> , Password = <Password, varchar(20)> WHERE <Search Conditions,,>
+
+
+delete Menu
+delete FoodEntry
+delete Amount
+delete PersonDetails
+delete UserInformation
+
+
+drop table Menu
+drop table FoodEntry
+drop table Amount
+drop table PersonDetails
+drop table UserInformation
