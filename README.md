@@ -1,8 +1,9 @@
-Developed a project on Food Manager Application for College hostels or PG hostels 
+> Developed a project on Food Manager Application for College hostels or PG hostels
 
- Software : ASP.NET Web Form , C#, CSS and JavaScript.
+ **Software : ASP.NET Web Form , C#, CSS and JavaScript.**
 
- Database: MySQL
+ **Database: MySQL**
+
 
 Summary
           The Application would works for daily food entry and Every month calculating food bill send to every client for their monthly food amount in e-mail. Application has Admin and Client User Interfaces.
