@@ -12,7 +12,7 @@
                    2. Food Menu(Every day Breakfast,Lunch,Dinner => Add,Delete,Update), 
                    3. Report Generation(Based on "selective from and To date" and 
                        "Monthly report" it would two of them send monthly and selective date food bill to client via  email system), 
-                   4. Food Entry daily("select Monday,breakfast -> default fetch food name from db from Monday and breakfast") 
+                   4. Food Entrydaily("select Monday,breakfast->default fetch food name from db foodname has IDLY") 
                    5. Food Entry also managed(update particular person wrongly entered or missing new person entry).
 
           😃 Client -> Client side user interface has only Food Menu for Monday to Sunday Breakfast,Lunch,Dinner in the table order. 
